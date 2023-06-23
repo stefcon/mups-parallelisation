@@ -1,0 +1,5 @@
+#for var in 1 2 4 8
+#do
+#    export OMP_NUM_THREADS=$var
+    mpirun -n 8 ./md #| python3 ../script2.py
+#done

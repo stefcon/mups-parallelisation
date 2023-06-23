@@ -1,0 +1,10 @@
+for var in 1 2 4 8
+do
+    export OMP_NUM_THREADS=$var
+    ./run_b | python3 ../script.py
+done
+for var in 1 2 4 8
+do
+    export OMP_NUM_THREADS=$var
+    ./run_mod | python3 ../script.py
+done

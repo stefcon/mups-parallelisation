@@ -1,0 +1,4 @@
+mpirun -n 8 ./feyman_mod 1000
+mpirun -n 8 ./feyman_mod 5000
+mpirun -n 8 ./feyman_mod 10000
+mpirun -n 8 ./feyman_mod 20000
